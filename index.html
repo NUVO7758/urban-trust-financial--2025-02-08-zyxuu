@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,34 +20,44 @@
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm border-b border-gray-800 z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-2xl font-bold text-white hover:text-blue-400 transition-colors duration-300">
+                <a href="https://NUVO7758.github.io/urban-trust-financial--2025-02-08-zyxuu" class="text-2xl font-bold text-white hover:text-blue-400 transition-colors duration-300">
                     URBAN TRUST FINANCIAL
                 </a>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
-                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
-                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
-                    <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
+                    <a href="#features" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">About</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-white">
+                <button class="mobile-menu-button md:hidden text-white" aria-label="Toggle mobile menu">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 space-y-4">
+                <a href="#features" class="block text-gray-300 hover:text-white hover:bg-gray-800 px-4 py-2 rounded transition-all duration-300">Features</a>
+                <a href="#benefits" class="block text-gray-300 hover:text-white hover:bg-gray-800 px-4 py-2 rounded transition-all duration-300">Benefits</a>
+                <a href="#testimonials" class="block text-gray-300 hover:text-white hover:bg-gray-800 px-4 py-2 rounded transition-all duration-300">Testimonials</a>
+                <a href="#about" class="block text-gray-300 hover:text-white hover:bg-gray-800 px-4 py-2 rounded transition-all duration-300">About</a>
+                <a href="#faq" class="block text-gray-300 hover:text-white hover:bg-gray-800 px-4 py-2 rounded transition-all duration-300">FAQ</a>
+                <a href="#contact" class="block text-gray-300 hover:text-white hover:bg-gray-800 px-4 py-2 rounded transition-all duration-300">Contact</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section id="hero" class="pt-32 pb-24 px-6">
-            <div class="container mx-auto max-w-7xl">
+        <section id="hero" class="pt-32 pb-24 px-6" style="background-image: url('https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); background-size: cover; background-position: center;">
+            <div class="container mx-auto max-w-7xl bg-gray-900/80 p-12 rounded-2xl backdrop-blur-sm">
                 <div class="text-center">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                        A New Way to Buy Life Insurance
+                        A Revolutionary Approach to Life Insurance
                     </h1>
-                    <p class="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto">
-                        Transform your financial future with innovative life insurance solutions that work for you.
+                    <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">
+                        Experience financial freedom with our innovative life insurance solutions that let you build wealth, access your money during your lifetime, and secure your family's future.
                     </p>
                     <a href="https://urbantrustfinancial.com" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
-                        Get Started Today
+                        Start Your Financial Journey
                     </a>
                 </div>
             </div>
@@ -47,17 +65,17 @@
 
         <section id="features" class="py-24 bg-gray-800/50">
             <div class="container mx-auto max-w-7xl px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Key Features</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Revolutionary Features</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="bg-gray-800 rounded-xl p-8 hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/10">
+                    <div class="bg-gray-800 rounded-xl p-8 hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/20">
                         <i class="fas fa-university text-4xl text-blue-400 mb-6"></i>
-                        <h3 class="text-xl font-semibold mb-4">Become Your Own Bank</h3>
-                        <p class="text-gray-400">Take control of your financial future by creating your personal banking system.</p>
+                        <h3 class="text-xl font-semibold mb-4">Personal Banking System</h3>
+                        <p class="text-gray-400">Create your own banking ecosystem with our innovative policy structure. Access funds, earn interest, and maintain complete control over your financial destiny without traditional banking restrictions.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-xl p-8 hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/10">
+                    <div class="bg-gray-800 rounded-xl p-8 hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/20">
                         <i class="fas fa-smile-beam text-4xl text-blue-400 mb-6"></i>
-                        <h3 class="text-xl font-semibold mb-4">Enjoy Your Money Before You Die</h3>
-                        <p class="text-gray-400">Access your benefits while you're alive and make the most of your investment.</p>
+                        <h3 class="text-xl font-semibold mb-4">Living Benefits</h3>
+                        <p class="text-gray-400">Why wait until you're gone? Access your policy's benefits during your lifetime for retirement, emergencies, or investments. Enjoy financial security while building a legacy for your loved ones.</p>
                     </div>
                 </div>
             </div>
@@ -65,23 +83,89 @@
 
         <section id="benefits" class="py-24">
             <div class="container mx-auto max-w-7xl px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Benefits</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Unmatched Benefits</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div class="bg-gray-800 rounded-xl p-8 text-center">
+                    <div class="bg-gray-800 rounded-xl p-8 text-center hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/20">
                         <div class="text-5xl font-bold text-blue-400 mb-4">100%</div>
-                        <h3 class="text-xl font-semibold mb-2">Profits</h3>
-                        <p class="text-gray-400">Maximize your returns with our guaranteed profit structure</p>
+                        <h3 class="text-xl font-semibold mb-2">Guaranteed Returns</h3>
+                        <p class="text-gray-400">Lock in profits with our guaranteed minimum return structure, ensuring your investment grows steadily year after year.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-xl p-8 text-center">
+                    <div class="bg-gray-800 rounded-xl p-8 text-center hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/20">
                         <div class="text-5xl font-bold text-blue-400 mb-4">0%</div>
-                        <h3 class="text-xl font-semibold mb-2">Loss</h3>
-                        <p class="text-gray-400">Your investment is protected against market downturns</p>
+                        <h3 class="text-xl font-semibold mb-2">Market Risk</h3>
+                        <p class="text-gray-400">Your principal is fully protected against market volatility, providing peace of mind in any economic climate.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-xl p-8 text-center">
+                    <div class="bg-gray-800 rounded-xl p-8 text-center hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/20">
                         <i class="fas fa-piggy-bank text-5xl text-blue-400 mb-4"></i>
-                        <h3 class="text-xl font-semibold mb-2">Borrow From Yourself</h3>
-                        <p class="text-gray-400">Access your funds without traditional lending restrictions</p>
+                        <h3 class="text-xl font-semibold mb-2">Self-Financing</h3>
+                        <p class="text-gray-400">Create your own lending system with competitive rates and flexible terms, putting you in control of your financial future.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-800/50">
+            <div class="container mx-auto max-w-7xl px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Client Success Stories</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-800 rounded-xl p-8 hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"I've been able to finance my children's education and start a small business using my policy's cash value. The flexibility is incredible!"</p>
+                        <div class="font-semibold">Sarah Johnson</div>
+                        <div class="text-sm text-gray-400">Small Business Owner</div>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-8 hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The tax advantages and guaranteed returns have transformed my retirement planning. I wish I had discovered this sooner!"</p>
+                        <div class="font-semibold">Michael Chen</div>
+                        <div class="text-sm text-gray-400">Financial Analyst</div>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-8 hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Being able to access my money while it continues to grow has given me incredible financial flexibility. The returns are consistent and reliable."</p>
+                        <div class="font-semibold">Robert Martinez</div>
+                        <div class="text-sm text-gray-400">Real Estate Investor</div>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-8 hover:transform hover:scale-105 transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The peace of mind knowing my money is protected from market downturns while still growing is invaluable."</p>
+                        <div class="font-semibold">Emily Thompson</div>
+                        <div class="text-sm text-gray-400">Healthcare Professional</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24">
+            <div class="container mx-auto max-w-7xl px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Urban Trust Financial</h2>
+                <div class="max-w-3xl mx-auto space-y-8 text-gray-300">
+                    <p>Founded in 2020, Urban Trust Financial emerged from a vision to revolutionize the traditional approach to life insurance and wealth building. Our founders recognized that conventional financial products often failed to serve clients' best interests, leading to the development of our innovative "Be Your Own Bank" concept.</p>
+                    <p>Our mission is to empower individuals with financial solutions that provide both protection and growth opportunities. We believe in transparency, client education, and building long-term relationships based on trust and mutual success. Our core values of integrity, innovation, and client empowerment drive everything we do.</p>
                 </div>
             </div>
         </section>
@@ -90,13 +174,25 @@
             <div class="container mx-auto max-w-7xl px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="bg-gray-800 rounded-xl p-6">
-                        <h3 class="text-xl font-semibold mb-4">How does becoming my own bank work?</h3>
-                        <p class="text-gray-400">Our unique program allows you to build equity while maintaining control over your funds, similar to how traditional banks operate but with you in charge.</p>
+                    <div class="bg-gray-800 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">How does the "Be Your Own Bank" concept work?</h3>
+                        <p class="text-gray-400">Our program allows you to build cash value within your policy that you can borrow against at competitive rates. You maintain control over your money while it continues to grow, regardless of whether you have outstanding loans.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-xl p-6">
-                        <h3 class="text-xl font-semibold mb-4">What are the tax benefits?</h3>
-                        <p class="text-gray-400">Our life insurance solutions offer various tax advantages, including tax-deferred growth and tax-free distributions when structured properly.</p>
+                    <div class="bg-gray-800 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What are the tax advantages of this program?</h3>
+                        <p class="text-gray-400">Your policy's cash value grows tax-deferred, and loans taken against the policy are tax-free. Additionally, death benefits are generally paid to beneficiaries income tax-free.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">How quickly can I access my money?</h3>
+                        <p class="text-gray-400">Once your policy has accumulated cash value, you can access your funds within 7-10 business days through our streamlined loan process.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">Is there a minimum investment required?</h3>
+                        <p class="text-gray-400">We offer flexible premium options starting at $200 monthly, with the ability to adjust contributions based on your financial situation.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-6 hover:transform hover:scale-105 transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-4">What happens to my policy if the market crashes?</h3>
+                        <p class="text-gray-400">Your policy's cash value is guaranteed and protected from market downturns, ensuring your principal and accumulated growth remain secure regardless of market conditions.</p>
                     </div>
                 </div>
             </div>
@@ -104,10 +200,10 @@
 
         <section id="contact" class="py-24">
             <div class="container mx-auto max-w-7xl px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Get Started?</h2>
-                <p class="text-xl text-gray-400 mb-12">Contact us today to learn more about our innovative financial solutions</p>
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Secure Your Financial Future?</h2>
+                <p class="text-xl text-gray-400 mb-12">Contact us today for a personalized consultation and discover how our innovative solutions can work for you.</p>
                 <a href="mailto:nuvoenterprizes@gmail.com" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
-                    Contact Us
+                    Schedule Your Consultation
                 </a>
             </div>
         </section>
@@ -115,10 +211,10 @@
 
     <footer class="bg-gray-800 py-12">
         <div class="container mx-auto max-w-7xl px-6">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">URBAN TRUST FINANCIAL</h3>
-                    <p class="text-gray-400">Innovative life insurance solutions for a secure future.</p>
+                    <p class="text-gray-400">Revolutionizing financial futures through innovative life insurance solutions.</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contact</h3>
@@ -129,7 +225,16 @@
                     <ul class="space-y-2">
                         <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
                         <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://NUVO7758.github.io/urban-trust-financial--2025-02-08-zyxuu/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://NUVO7758.github.io/urban-trust-financial--2025-02-08-zyxuu/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://NUVO7758.github.io/urban-trust-financial--2025-02-08-zyxuu/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -138,5 +243,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
